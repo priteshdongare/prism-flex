@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+html{
+    font-size: 15px;
+}
+
+
+.center{
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* header part  */
+
+header{
+    width: 100%;
+    background-color: #674477 ;
+}
+
+.parent{
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 9rem 0 4rem 0;
+    justify-content: space-between;
+}
+
+.parent .chai{
+    width: 47%;
+    color: #ffffff;
+}
+
+.parent .chai h1{
+    font-size: 2.7rem;
+}
+
+.parent .chai h2{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color: #b2a3bb;
+}
+
+.headerhr{
+    width: 0.2rem;
+    border: 0;
+    background-color: #6f5b7f;
+}
+
+.parent .chai button{
+    color: #ffffff;
+    width: 14rem;
+    height: 3.5rem;
+    margin-top: 3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color:#00bc8a;
+    border: 0;
+    border-radius: 2rem;
+    padding-left: 1rem;
+}
+
+
+
+/* info section  */
+
+.info{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.info .in{
+    width: 47%;
+}
+
+.info .inf{
+    width: 47%;
+}
+
+.info .in h2{
+    font-size: 2rem;
+    color:  #666666;
+    margin-bottom:1rem;
+}
+
+.info .in p {
+    color: #777777;
+    font-size:1rem;
+    line-height: 1.5rem;
+}
+
+.info .in button{
+    width: 13rem;
+    height:3.5rem;
+    margin-top:2rem;
+    font-family: 'Poppins', sans-serif;
+    border: 0.1rem solid #e3e3e3;
+     border-radius:2rem;
+     background: none;
+}
+
+.info .infohr{
+    width: 0.2rem;
+    height: auto;
+    border: 0;
+    background-color: #e3e3e3;
+}
+
+.info .inf h1 span{
+    color: #00bc8a;
+    font-size: 1.7rem;
+}
+
+.info .inf h1{
+    font-size: 1.3rem;
+    color: #777777;
+   margin: 0.5rem; 
+}
+
+
+
+/* 2 section hr  */
+
+.bighr{
+    width: 100%;
+    height: 0.1rem;
+    border: 0;
+    background-color: #e3e3e3;
+    margin-bottom: 3rem;
+}
+
+
+
+/* 3 big section */
+
+.big{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bigcenter{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.bigcenter .img{
+    width: 40%;
+}
+
+.bigcenter .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.bigcenter .heading{
+    width: 60%;
+    padding-left: 3rem;
+    padding-top: 7rem;
+    border-bottom: 0.1rem solid #e3e3e3;
+}
+
+.bigcenter .heading h1{
+    color: #666666;
+    font-size: 1.7rem;
+}
+
+.bigcenter .heading p{
+    color: #777777;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.bigcenter .heading button{
+    width: 13rem;
+    height:3.5rem;
+    margin-top:1.8rem;
+    font-family: 'Poppins', sans-serif;
+    border: 0.1rem solid #e3e3e3;
+     border-radius:2rem;
+     background: none;
+}
+
+.big .bigbutton{
+    width: 18rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+    border: 0;
+    border: 0.1rem solid #e3e3e3;
+    border-radius: 1.8rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    background: none;
+}
+
+
+
+/* footer */
+.space{
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.sec1{
+    width:52%;
+}
+
+.sec2{
+    width:41%;
+}
+
+.sec1 .div1 h1{
+    color: #666666;
+    font-size: 2.1rem;
+}
+.sec1 .div1 p{
+    color: #77778d;
+    font-size: 1.1rem;
+    margin-bottom:35px;
+}
+
+.sec1 form input{
+    border: 0;
+    width: 19.5rem;
+    padding: 0.4rem 0.4rem;
+    margin-bottom:2rem;
+    border: 0.1rem solid #e3e3e3;
+}
+
+.sec1 form textarea{
+    width: 40rem;
+    padding: 0.4rem 0.4rem;
+    border: 0.1rem solid #e3e3e3;
+}
+
+.sec1 form button{
+    width: 14rem;
+    height: 3.2rem;
+    font-size: 1.1rem;
+    border: 0;
+    border: 0.1em solid #e3e3e3;
+    border-radius: 1.8rem;
+    margin-top: 2rem;
+    background: none;
+}
+
+.footerhr{
+    width: 0.1rem;
+    height: auto;
+    margin-top: 0;
+    border: 0;
+    background-color: #e3e3e3;
+}
+
+.sec2 h1 span{
+    color: #00bc8a;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.sec2 h1 {
+    font-size:1.2rem;
+    color: #777777;
+    font-weight: 100;
+}
+
+.lasthr{
+    width: 100%;
+    margin-top:6rem;
+    border: 0;
+    height: 0.1rem;
+    background-color: #e3e3e3;
+}
+
+.copy {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+    font-size:0.7rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+/* media start here  */
+@media only screen and (max-width:700px){
+
+    /* header  */
+    .parent{
+        display: block;
+        width: 100%;
+        padding: 5rem 0 4rem 0;
+    }
+ 
+    .parent .headerhr{
+        width: 93%;
+        margin: auto;
+        height: 0.1rem;
+    }
+
+    .parent .chai{
+        width: 100%;
+        padding: 1rem 0 0.7rem 2rem;
+    }
+
+    .parent .chai h1{
+         font-size: 1.7rem;
+    }
+
+    .parent .chai h2{
+        padding-left: 0rem;
+        font-size: 1rem;
+    }
+
+    .parent .chai button{
+        width: 10rem;
+        height: 3rem;
+        font-size: 00.8rem;
+    }
+
+
+    /* info section  */
+ 
+    .center{
+        display: block;
+        width: 100%;
+        padding: 0rem 0 0.7rem 2rem;
+    }
+
+    .info .in{
+        width: 100%;
+    }
+
+    .info .in h2{
+        font-size: 1.3rem;
+    }
+
+    .info .inf h1{
+        font-size: 0.9rem;
+    }
+
+    .info .inf h1 span{
+        font-size: 1.2rem;
+    }
+
+    .info .in p{
+        font-size: 0.8rem;
+    }
+
+    .info .infohr{
+        width: 96%;
+        margin: auto;
+        height: 0.1rem;
+        margin:2rem 0;
+    }
+    
+    .info .inf{
+        width: 100%;
+    }
+    
+    .center .in button{
+        width: 10rem;
+        height: 3rem;
+        font-size: 00.8rem;
+    }
+
+
+    /* 3 big section  */
+
+    .bigcenter{
+        display: block;
+    }
+
+    .bigcenter .img{
+        width: 100%;
+    }
+
+    .bigcenter .img img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .bigcenter .heading h1{
+        font-size: 1.5rem;
+    }
+
+    .bigcenter .heading p{
+        font-size: 0.8rem;
+    }
+
+    .bigcenter .heading{
+        width: 100%;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 2rem 0 1.5rem 0.2rem;
+    }
+
+    .bigcenter .heading button{
+        width: 9rem;
+        height: 3rem;
+        font-size: 00.8rem;
+    }
+
+    .big .bigbutton{
+        width: 13rem;
+        font-size: 00.8rem;
+    }
+
+
+
+    /* footer  */
+    
+    .bigcenter{
+        display: block;
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    .bigcenter .sec1{
+        width: 100%;
+    }
+
+    .bigcenter .sec1 .div1{
+        width: 100%;
+        padding: 2rem 0 0 2rem;
+    }
+
+    .bigcenter .sec1 .div1 h1{
+        font-size: 1.3rem;
+    }
+
+    .bigcenter .sec1 .div1 p{
+        font-size: 0.7rem;
+        margin-top: 0.4rem;
+    }
+
+    .bigcenter .sec1 form{
+        width: 100%;
+        padding: 0rem 0 0 2rem;
+    }
+
+    .bigcenter .sec1 form input{
+        width: 90%;
+    }
+
+    .bigcenter .sec1 form textarea{
+        width: 90%;
+    }
+
+    .bigcenter .sec1 form button{
+        width: 10rem;
+        font-size: 0.8rem;
+    }
+
+    .footerhr{
+        width: 100%;
+        margin: auto;
+        height: 0.1rem;
+        margin:2rem 0 1rem 0;
+    }
+
+    .bigcenter .sec2{
+        padding-left: 2rem;
+        width: 100%;
+    } 
+
+    .bigcenter .sec2 h1 {
+        width: 100%;
+        font-size: 0.8rem;
+        padding-bottom: 0rem;
+    }
+
+    .lasthr{
+        width: 100%;
+        margin: auto;
+        height: 0.1rem;
+        margin:2rem 0 1rem 0;
+    }
+
+    .copy{
+        font-size:0.5rem;
+        margin: 1rem 0;
+    }
+
+
+
+
+
+
+}
